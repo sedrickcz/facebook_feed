@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'facebook_feed'
-  s.version     = '1.0.4'
+  s.version     = '1.0.5'
   s.date        = '2013-04-18'
   s.summary     = "Ruby bindings for Facebook feed APIs"
   s.description = "A Ruby wrapper around Facebook feed APIs. Currently, Facebook Group and Feed APIs are supported."
@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/facebook_feed.rb", "lib/facebook_feed/feed_downloader.rb", "lib/facebook_feed/errors/feed_error.rb", "lib/facebook_feed/errors/invalid_credentials_error.rb", "lib/facebook_feed/errors/invalid_feed_downloader_error.rb"]
   s.homepage    = "https://github.com/carsontang/facebook_feed"
   s.add_dependency("json", "= 1.7.4")
-  s.add_dependency("rest-client", "= 1.6.7")
+  s.add_dependency("rest-client", "= 1.8.1")
 end
